@@ -1,0 +1,11 @@
+# Old report drafts (not for submission)
+report/drafts/
+
+# Raw captures contain the plaintext test passwords
+captures/
+*.pcapng
+
+# Never commit keys or local secrets
+.ssh/
+*.key
+*.env
